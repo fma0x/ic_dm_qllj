@@ -89,37 +89,37 @@ pela comunidade científica.
 ## Referências  
 
 [1] Allen, M.P.; Tildesley, D.J. Computer Simulation of Liquids. Oxford University Press,
-2017.
+2017.  
 [2] Rapaport, D.C. The Art of Molecular Dynamics Simulation. Cambridge University
-Press, 2004.
+Press, 2004.  
 [3] Alves, Á.S. et al. A Proposal of an Isothermal q-EoS for Solids at High Pressures.
-Sitientibus Ser. Cien. Fis. 20, 1 (2024).
+Sitientibus Ser. Cien. Fis. 20, 1 (2024).  
 [4] Á. S. Alves, F. A. Farias, R. N. dos Santos, A Three Parameter q-EoS for Solids under
-High Pressures. Sitientibus Ser, Cien. Fis. 20, 1 (2024).
-[5] Tsallis, C. Introduction to Nonextensive Statistical Mechanics. Springer, 2009.
+High Pressures. Sitientibus Ser, Cien. Fis. 20, 1 (2024).  
+[5] Tsallis, C. Introduction to Nonextensive Statistical Mechanics. Springer, 2009.  
 [6] Plimpton, S. Fast Parallel Algorithms for Short-Range Molecular Dynamics. J. Comp.
-Phys. 117, 1-19 (1995).
-[7] Thompson, A.P. et al. LAMMPS - a Flexible Simulation Tool for Particle-Based
-Materials Modeling. Comp. Phys. Comm. 271, 108171 (2022).
-[8] Frenkel, D.; Smit, B. Understanding Molecular Simulation. Academic Press, 2023.
-[9] LAMMPS Documentation. Adding a New Pair Style. 2023.
-[10] Dewaele, A. et al. High-Pressure-High-Temperature Equations of State for Fe and
-MgO. Phys. Rev. B 82, 104106 (2010).
-[11] Prlić, A. et al. BioJava: An Open-Source Framework for Bioinformatics.
-Bioinformatics 28, 2693-2695 (2012).
-[12] Virtanen, P. et al. SciPy 1.0: Fundamental Algorithms for Scientific Computing in
-Python. Nature Methods 17, 261-272 (2020).
-[13] McMahon, M.I. High-Pressure Physics: The Diamond Age. Nat. Mater. 5, 763-764
-(2006).
-[14] Geim, A.K. Graphene: Status and Prospects. Science 324, 1530-1534 (2009).
+Phys. 117, 1-19 (1995).  
+[7] Thompson, A.P. et al. LAMMPS - a Flexible Simulation Tool for Particle-Based  
+Materials Modeling. Comp. Phys. Comm. 271, 108171 (2022). 
+[8] Frenkel, D.; Smit, B. Understanding Molecular Simulation. Academic Press, 2023.  
+[9] LAMMPS Documentation. Adding a New Pair Style. 2023.  
+[10] Dewaele, A. et al. High-Pressure-High-Temperature Equations of State for Fe and  
+MgO. Phys. Rev. B 82, 104106 (2010).  
+[11] Prlić, A. et al. BioJava: An Open-Source Framework for Bioinformatics.  
+Bioinformatics 28, 2693-2695 (2012).  
+[12] Virtanen, P. et al. SciPy 1.0: Fundamental Algorithms for Scientific Computing in  
+Python. Nature Methods 17, 261-272 (2020).  
+[13] McMahon, M.I. High-Pressure Physics: The Diamond Age. Nat. Mater. 5, 763-764  
+(2006).  
+[14] Geim, A.K. Graphene: Status and Prospects. Science 324, 1530-1534 (2009).  
 [15] Phillips, J.C. et al. Scalable Molecular Dynamics with NAMD. J. Comp. Chem. 26,
-1781-1802 (2005).
-[16] Harris, C.R. et al. Array Programming with NumPy. Nature 585, 357-362 (2020).
+1781-1802 (2005).  
+[16] Harris, C.R. et al. Array Programming with NumPy. Nature 585, 357-362 (2020).  
 [17] LAMMPS Developer Guide. Adding a new pair style. Disponível em:
-https://docs.lammps.org/Developer_plugins.html. Acessado em 05/04/2025.
-[18] Allen, M. P.; Tildesley, D. J. Computer Simulation of Liquids. Oxford, 2017.
+https://docs.lammps.org/Developer_plugins.html. Acessado em 05/04/2025.  
+[18] Allen, M. P.; Tildesley, D. J. Computer Simulation of Liquids. Oxford, 2017.  
 [19] Dewaele, A. et al. High-Pressure Equations of State for Fe and Cu. Phys. Rev. B 82,
-104106 (2010). 
+104106 (2010).   
 [20] Thompson, A. P. et al. LAMMPS - a Flexible Simulation Tool. Comp. Phys. Comm.
-271, 108171 (2022).
-[21] Frenkel, D.; Smit, B. Understanding Molecular Simulation. Academic Press, 2023. 
+271, 108171 (2022).  
+[21] Frenkel, D.; Smit, B. Understanding Molecular Simulation. Academic Press, 2023.   
