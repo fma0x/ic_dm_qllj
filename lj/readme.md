@@ -8,8 +8,8 @@ $$
 onde:
 
 $$
-\ V(r) \ é o potencial como função da distância \( r \),\\\
-\varepsilon \ é a profundidade do poço de potencial (mede a intensidade da atração),\\\
-\sigma \ é a distância na qual o potencial é zero,\\\
+\ V(r) \ é o potencial como função da distância \( r \),\\
+\varepsilon \ é a profundidade do poço de potencial (mede a intensidade da atração),\\
+\sigma \ é a distância na qual o potencial é zero,\\
 \ r \ é a distância entre duas partículas.
 $$
