@@ -1,9 +1,9 @@
 
 O potencial de Lennard-Jones é dado por:
 
-\[
-V(r) = 4\varepsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right]
-\]
+
+$V(r) = 4\varepsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right]$
+
 
 onde:
 
