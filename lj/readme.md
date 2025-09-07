@@ -11,3 +11,4 @@ onde:
 - \( \varepsilon \) é a profundidade do poço de potencial (mede a intensidade da atração)
 - \( \sigma \) é a distância na qual o potencial é zero
 - \( r \) é a distância entre duas partículas
+ϵ
