@@ -1,0 +1,105 @@
+
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath, amssymb, geometry, graphicx}
+\geometry{margin=2cm}
+
+\title{Estudo da Função de Energia Potencial de Lennard-Jones}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Definição da Função}
+
+A energia potencial de Lennard-Jones é dada por:
+
+\[
+U(r) = 4\varepsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right]
+\]
+
+onde:
+\begin{itemize}
+    \item $\varepsilon$: profundidade do poço de potencial;
+    \item $\sigma$: distância para a qual $U(r)=0$.
+\end{itemize}
+
+
+\section{Interseção com o eixo x}
+
+\[
+U(r) = 0 \quad \Rightarrow \quad r = \sigma
+\]
+
+
+\section{Mínimo da Função}
+
+Derivando:
+
+\[
+\frac{dU}{dr} = 4\varepsilon \left( -12 \frac{\sigma^{12}}{r^{13}} + 6 \frac{\sigma^6}{r^7} \right)
+\]
+
+Impondo $\frac{dU}{dr}=0$:
+
+\[
+r = \sigma \cdot 2^{1/6} \approx 1,122\sigma
+\]
+
+Neste ponto:
+
+\[
+U_{\min} = -\varepsilon
+\]
+
+
+\section{Ponto de Inflerão}
+
+A segunda derivada é:
+
+\[
+\frac{d^2U}{dr^2} = 4\varepsilon \left( 156 \frac{\sigma^{12}}{r^{14}} - 42 \frac{\sigma^6}{r^8} \right)
+\]
+
+Igualando a zero:
+
+\[
+r = \sigma \left( \frac{26}{7} \right)^{1/6} \approx 1,244\sigma
+\]
+
+
+\section{Comportamento Assintótico}
+
+\[
+\lim_{r \to 0^+} U(r) = +\infty
+\qquad
+\lim_{r \to \infty} U(r) = 0^-
+\]
+
+
+\section{Força}
+\begin{flushleft}
+A força é dada por:
+
+\[
+F(r) = -\frac{dU}{dr} = 24\varepsilon \left( \frac{2\sigma^{12}}{r^{13}} - \frac{\sigma^6}{r^7} \right)
+\]
+
+- Atrativa ($F(r)<0$) para $r > 1,122\sigma$\\  
+- Repulsiva ($F(r)>0$) para $r < 1,122\sigma$\\  
+\end{flushleft}
+
+\section{Termos Individuais}
+
+\[
+U_{\text{rep}}(r) = 4\varepsilon \left( \frac{\sigma}{r} \right)^{12}
+\qquad
+U_{\text{atr}}(r) = -4\varepsilon \left( \frac{\sigma}{r} \right)^6
+\]
+
+- Para $r \ll \sigma$: termo repulsivo domina;  
+- Para $r \gg \sigma$: termo atrativo domina;  
+
+
+\end{document}
