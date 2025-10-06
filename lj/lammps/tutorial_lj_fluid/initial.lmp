@@ -1,0 +1,37 @@
+# tutorial lj para lammps disponível em:
+# https://lammpstutorials.github.io/sphinx/build/html/tutorial1/lennard-jones-fluid.html
+# doc do lammps: https://docs.lammps.org/pair_coeff.html
+
+# 1) Initialization
+untis lj 
+dimension 3
+atom_style atomic #estilo de átomo básico (partícula com massa, sem carga ...)
+boundary p p p # condições de contorno periódicas são aplicadas nas três direções
+
+# 2) System definition
+region simbox block -20 20 -20 20 -20 20 #define a caixa
+create_box 2 simbox #inicia a caixa na região denominada simbox. Reserva espaço para 2 tipos de átomos
+create_atoms 1 random 1500 34134 simbox overlap 0.3
+create_atoms 2 random 100 12756 simbox overlap 0.3 # overlap: distância entre os átomos
+
+# 3) Settings
+# sobre lammps force fields: https://docs.lammps.org/2001/force_fields.html 
+# By default, LAMMPS calculates the mixed force field coefficients for different atom types using geometric averages
+# Other rules can be selected using the pair_modify command.
+
+mass 1 1.0
+mass 2 5.0
+pair_stylelj/cut 4.0
+pair_coeff 1 1 1.0 1.0 # ϵ11=1.0 e σ11=1.0
+pair_coeff 2 2 0.5 3.0
+
+# 4) Monitoring
+
+thermo 10 # instrui o lammps a exibir no console informações termodinâmicas a cada número de passo. No caso, 10 passos.
+thermo_style custom step press #especifica a saída
+
+# 5) Run 
+run 0 post no # inicializa a força e energia sem de fato roda a simulação. Post no desabilita sumário e estatística ao final.
+
+
+
