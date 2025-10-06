@@ -42,6 +42,7 @@ thermo 50
 thermo_style custom step temp etotal pe ke press
 
 # 5) Run
-fix mynve all nve #nve (microcanonical ensemble)
+fix mynve all nve #nve (microcanonical ensemble); fix nve: aqui se usa o velocity-verlet.
+fix mylgv all langevin 1.0 1.0 0.1 10917 #Langevin thermostat; you can change (seed 10917) it to perform statistically independent simulations
 timestep 0.005
-run 50000
+run 15000
