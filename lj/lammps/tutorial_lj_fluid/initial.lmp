@@ -36,5 +36,12 @@ thermo_style custom step press #especifica a saída
 # https://docs.lammps.org/minimize.html
 minimize 1.0e-6 1.0e-6 1000 10000 #(etol ftol maxiter maxeval)
 
+# PART B - MOLECULAR DYNAMICS
+# 4) Monitoring
+thermo 50
+thermo_style custom step temp etotal pe ke press
 
-
+# 5) Run
+fix mynve all nve #nve (microcanonical ensemble)
+timestep 0.005
+run 50000
