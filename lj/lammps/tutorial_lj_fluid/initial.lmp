@@ -31,8 +31,10 @@ thermo 10 # instrui o lammps a exibir no console informações termodinâmicas a
 thermo_style custom step press #especifica a saída
 
 # 5) Run 
-#run 0 post no # inicializa a força e energia sem de fato roda a simulação. Post no desabilita sumário e estatística ao final.
-minimize 1.0e-6 1.0e-6 1000 10000 #This tells LAMMPS to perform an iterative energy minimization of the system.
+#run 0 post no # inicializa a força e energia sem de fato rod a simulação. Post no desabilita sumário e estatística ao final.
+#This tells LAMMPS to perform an iterative energy minimization of the system.
+# https://docs.lammps.org/minimize.html
+minimize 1.0e-6 1.0e-6 1000 10000 #(etol ftol maxiter maxeval)
 
 
 
