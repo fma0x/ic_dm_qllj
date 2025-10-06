@@ -3,7 +3,7 @@
 # doc do lammps: https://docs.lammps.org/pair_coeff.html
 
 # 1) Initialization
-untis lj 
+units lj 
 dimension 3
 atom_style atomic #estilo de átomo básico (partícula com massa, sem carga ...)
 boundary p p p # condições de contorno periódicas são aplicadas nas três direções
@@ -21,7 +21,7 @@ create_atoms 2 random 100 12756 simbox overlap 0.3 # overlap: distância entre o
 
 mass 1 1.0
 mass 2 5.0
-pair_stylelj/cut 4.0
+pair_style lj/cut 4.0
 pair_coeff 1 1 1.0 1.0 # ϵ11=1.0 e σ11=1.0
 pair_coeff 2 2 0.5 3.0
 
