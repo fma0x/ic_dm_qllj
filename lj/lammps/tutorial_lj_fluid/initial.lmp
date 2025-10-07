@@ -1,3 +1,7 @@
+# ============================================
+# SIMULAÇÃO DE UM FLUIDO DE LENNARD-JONES
+#                (script 1)
+# ============================================
 # tutorial lj para lammps disponível em:
 # https://lammpstutorials.github.io/sphinx/build/html/tutorial1/lennard-jones-fluid.html
 # doc do lammps: https://docs.lammps.org/pair_coeff.html
