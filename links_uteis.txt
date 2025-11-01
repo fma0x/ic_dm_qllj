@@ -1,1 +1,5 @@
 - https://lammpstutorials.github.io/sphinx/build/html/tutorial1/lennard-jones-fluid.html
+
+- https://docs.rs/crate/lammps-analyser/latest/source/README.md
+
+- https://www.youtube.com/watch?v=ywTVbTAwm-0&themeRefresh=1 (curso Lammps Archer2)
