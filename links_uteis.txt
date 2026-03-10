@@ -3,3 +3,12 @@
 - https://docs.rs/crate/lammps-analyser/latest/source/README.md
 
 - https://www.youtube.com/watch?v=ywTVbTAwm-0&themeRefresh=1 (curso Lammps Archer2)
+
+cmake ../cmake \\
+  -D BUILD_MPI=ON \\
+  -D BUILD_SHARED_LIBS=ON \\
+  -D PKG_PYTHON=ON \\
+  -D LAMMPS_EXCEPTIONS=ON \\
+  -D CMAKE_INSTALL_PREFIX=../install\
+
+cmake --build . -j $(nproc)\
